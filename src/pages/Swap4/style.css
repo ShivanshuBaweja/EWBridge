@@ -1,0 +1,21 @@
+.rounded-edge{
+    border-radius: 50px;;
+}
+.input-wrap{
+    position: relative;
+}
+.swap-btn{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-top: -17px;
+    margin-left: -30px;
+    padding: 0 6px;
+    background: #f5f5f5;
+    z-index: 999;
+    color: #555;
+    border: 5px solid #fff
+}
+.input-bg{
+    background: #f5f5f5;
+}

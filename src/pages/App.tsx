@@ -31,6 +31,7 @@ import Swap3 from './Swap3'
 import { OpenClaimAddressModalAndRedirectToSwap, RedirectPathToSwapOnly, RedirectToSwap } from './Swap/redirects'
 import Vote from './Vote'
 import VotePage from './Vote/VotePage'
+import Swap4 from './Swap4'
 
 const AppWrapper = styled.div`
   display: flex;
@@ -126,6 +127,8 @@ export default function App() {
               <Route exact strict path="/create-proposal" component={CreateProposal} />
               <Route exact strict path="/swap2" component={Swap2} />
               <Route exact strict path="/swap3" component={Swap3} />
+
+              <Route exact strict path="/btc" component={Swap4} />
               <Route component={RedirectPathToSwapOnly} />
             </Switch>
             <Marginer />

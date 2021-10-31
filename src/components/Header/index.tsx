@@ -274,6 +274,9 @@ export default function Header() {
         <StyledNavLink id={`swap-nav-link`} to={'/swap'}>
           <Trans>Swap</Trans>
         </StyledNavLink>
+        <StyledNavLink id={`btc`} to={'/btc'}>
+         <Trans>ETH⇋BTC</Trans>
+        </StyledNavLink>
         <StyledNavLink
           id={`pool-nav-link`}
           to={'/pool'}
